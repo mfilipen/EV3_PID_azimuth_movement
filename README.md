@@ -21,7 +21,7 @@ Robot moves with unevenly with jerks. Solution: use appropriate constants for PI
 The constans for PID controoler was choosen during realworld test process. The transition process was evaluated by the characteristic features of this process (respons time, overshooting, stady error).  
 
 ### Explanation why this values are the best
-This value was estimated based on my sense of beauty. Proportional coefficient - responsible for response time and overshooting. it was set big (relative to another coefficient) for good response time. After that we should work with overshoot problem. Differential coefficient helps with this problem. It was seasoned to good enough stabilize overshoot. And last integral coefficient was chosen experimentally. It's responsible to compensate the steady state error.
+This value was estimated based on my sense of beauty. Proportional coefficient - responsible for response time and overshooting. it was set big (relative to another coefficient) for good response time. After that we should work with overshoot problem. Differential coefficient helps with this problem. It was seasoned to good enough stabilize overshoot. And last integral coefficient was chosen experimentally. It's responsible to compensate the steady state error but it save error.
 
 ### link to youtube video
 [Video of working setup on Youtube](https://youtu.be/Wj7KsnlTIb0). 
